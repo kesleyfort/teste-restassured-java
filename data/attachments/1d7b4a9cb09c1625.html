@@ -1,0 +1,39 @@
+<div>POST to https://dummyjson.com/products/add</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;Sicredi Test Product&quot;,
+    &quot;description&quot;: &quot;A high-quality test product for QE challenge&quot;,
+    &quot;category&quot;: &quot;electronics&quot;,
+    &quot;price&quot;: 99.99,
+    &quot;discountPercentage&quot;: 10.5,
+    &quot;rating&quot;: 4.5,
+    &quot;stock&quot;: 50,
+    &quot;brand&quot;: &quot;Sicredi Brand&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://dummyjson.com/products/add&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;Sicredi Test Product&quot;,
+    &quot;description&quot;: &quot;A high-quality test product for QE challenge&quot;,
+    &quot;category&quot;: &quot;electronics&quot;,
+    &quot;price&quot;: 99.99,
+    &quot;discountPercentage&quot;: 10.5,
+    &quot;rating&quot;: 4.5,
+    &quot;stock&quot;: 50,
+    &quot;brand&quot;: &quot;Sicredi Brand&quot;
+}&#39;
+    </div>
+
